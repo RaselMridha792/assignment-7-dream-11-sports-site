@@ -27,7 +27,7 @@ const Footer = () => {
               <h6 className="text-white uppercase font-bold text-xl">Subscribe</h6>
               <fieldset className="form-control">
                 <label className="label">
-                  <span className="label-text text-gray-400 font-bold">Subscribe to our newsletter for the latest updates.</span>
+                  <span className="label-text text-gray-400 font-bold md:w-3/4">Subscribe to our newsletter for the latest updates.</span>
                 </label>
                 <div className="flex join">
                 <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs join-item" />

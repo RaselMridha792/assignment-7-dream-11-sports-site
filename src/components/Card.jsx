@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { FaUserTie } from "react-icons/fa6";
 import { IoFlagSharp } from "react-icons/io5";
-const Card = ({ player }) => {
+const Card = ({ player, handleSelectPlayer }) => {
   const {
     playerId,
     name,
@@ -12,7 +12,6 @@ const Card = ({ player }) => {
     bowlingType,
     biddingPriceBPL,
   } = player;
-  console.log(player);
   return (
     <>
       <div className="card card-compact bg-base-100 shadow-xl p-3 border">
@@ -41,7 +40,7 @@ const Card = ({ player }) => {
             </div>
             <div className="text-end">
               <p className="text-gray-500 py-3">{bowlingType}</p>
-              <button className="btn btn-outline hover:bg-[#E7FE29] hover:text-black">Choose Player</button>
+              <button onClick={()=>handleSelectPlayer(player)} className="btn btn-outline hover:bg-[#E7FE29] hover:text-black">Choose Player</button>
             </div>
           </div>
         </div>
@@ -52,6 +51,7 @@ const Card = ({ player }) => {
 
 Card.propTypes = {
   player: PropTypes.object.isRequired,
+  handleSelectPlayer: PropTypes.func
 };
 export default Card;
 
