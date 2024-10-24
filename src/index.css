@@ -7,3 +7,19 @@ body{
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
 }
+
+.btn-main{
+  background-color: #E7FE29;
+}
+
+.linear-btn{
+  background: rgb(240,149,12);
+  background: linear-gradient(90deg, rgba(240,149,12,1) 35%, rgba(239,0,255,0.8183648459383753) 100%);
+}
+
+.big-border{
+  /* border: 16px solid rgb(65, 64, 68); */
+  border: 16px solid; /* Set the border width */
+  border-image: linear-gradient(to bottom, white 50%, rgb(76, 76, 76) 50%) 1;
+  background-clip: padding-box;
+}

@@ -1,0 +1,162 @@
+[
+    {
+      "playerId": 1,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgW6W359fp18YwF9EspdR4c0Gln6vi1CvbpQ&s",
+      "role": "All-rounder",
+      "battingType": "Left-handed",
+      "bowlingType": "Slow left-arm orthodox",
+      "biddingPriceBPL": "$200000"
+    },
+    {
+      "playerId": 2,
+      "name": "Tamim Iqbal",
+      "country": "Bangladesh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMFOuArCTohmfkabbQGSF3m0BWh74-J59vqw&s",
+      "role": "Batsman",
+      "battingType": "Left-handed",
+      "bowlingType": "Right-arm off break",
+      "biddingPriceBPL": "$150000"
+    },
+    {
+      "playerId": 3,
+      "name": "Mosaddek Hossain",
+      "country": "Bangladesh",
+      "image": "https://images.prothomalo.com/prothomalo-english%2Fimport%2Fmedia%2F2018%2F05%2F20%2F0a12c481722811dd22103c6f58b94d09-dcc3f476c7449a7d6b91f155f24bf725-5b0114aa3f5ff.jpg",
+      "role": "All-rounder",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm off break",
+      "biddingPriceBPL": "$120000"
+    },
+    {
+      "playerId": 4,
+      "name": "Saif Hassan",
+      "country": "Bangladesh",
+      "image": "https://static.cricbuzz.com/a/img/v1/i1/c182919/saif-hassan-ruled-out-of-kolkata-test-with-split-webbing.jpg?d=low&p=det",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm off break",
+      "biddingPriceBPL": "$100000"
+    },
+    {
+      "playerId": 5,
+      "name": "Taskin Ahmed",
+      "country": "Bangladesh",
+      "image": "https://outspoken.newagebd.com/files/img/202406/b8ecea552b1013457114ee63616d540a.jpg",
+      "role": "Bowler",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm fast",
+      "biddingPriceBPL": "$170000"
+    },
+    {
+      "playerId": 6,
+      "name": "Nasir Hossain",
+      "country": "Bangladesh",
+      "image": "https://api.bdcrictime.com/nasir-hossain-16_03_2022.jpg",
+      "role": "All-rounder",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm off break",
+      "biddingPriceBPL": "$110000"
+    },
+    {
+      "playerId": 7,
+      "name": "Shoriful Islam",
+      "country": "Bangladesh",
+      "image": "https://images.prothomalo.com/prothomalo-english%2F2023-09%2F7cbc8579-38fb-4f7c-95e9-e1e9d2814100%2F500666_01_02.jpg?auto=format%2Ccompress&fmt=webp&dpr=1.0&format=webp&w=400",
+      "role": "Bowler",
+      "battingType": "Right-handed",
+      "bowlingType": "Left-arm fast",
+      "biddingPriceBPL": "$130000"
+    },
+    {
+      "playerId": 8,
+      "name": "Saim Ayub",
+      "country": "Pakistan",
+      "image": "https://statico.sportskeeda.com/editor/2024/01/5a2cb-17042010535902-1920.jpg",
+      "role": "Batsman",
+      "battingType": "Left-handed",
+      "bowlingType": "Right-arm off break",
+      "biddingPriceBPL": "$80000"
+    },
+    {
+      "playerId": 9,
+      "name": "Arafat Sunny",
+      "country": "Bangladesh",
+      "image": "https://tds-images.thedailystar.net/sites/default/files/styles/big_202/public/feature/images/arafat-sunny-fb-wb.jpg",
+      "role": "Bowler",
+      "battingType": "Left-handed",
+      "bowlingType": "Slow left-arm orthodox",
+      "biddingPriceBPL": "$70000"
+    },
+    {
+      "playerId": 10,
+      "name": "Usman Qadir",
+      "country": "Pakistan",
+      "image": "https://i.tribune.com.pk/media/images/cover_1572361131qadir1594970338-0/cover_1572361131qadir1594970338-0.jpg",
+      "role": "Bowler",
+      "battingType": "Right-handed",
+      "bowlingType": "Leg spin",
+      "biddingPriceBPL": "$120000"
+    },
+    {
+      "playerId": 11,
+      "name": "Chaturanga de Silva",
+      "country": "Sri Lanka",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Silva_1727118289196.JPG",
+      "role": "All-rounder",
+      "battingType": "Left-handed",
+      "bowlingType": "Slow left-arm orthodox",
+      "biddingPriceBPL": "$90000"
+    },
+    {
+      "playerId": 12,
+      "name": "Ahmed Shehzad",
+      "country": "Pakistan",
+      "image": "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2018/10/05/Pictures/pakistan-s-ahmed-shehzad-during-nets_cebd8e02-c8c6-11e8-bbf7-ccd0803112e5.jpg",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm off break",
+      "biddingPriceBPL": "$100000"
+    },
+    {
+      "playerId": 13,
+      "name": "Alex Blake",
+      "country": "England",
+      "image": "https://www.cricnepal.com/wp-content/uploads/2022/12/Alex-Blake.jpg",
+      "role": "Batsman",
+      "battingType": "Left-handed",
+      "bowlingType": "Right-arm medium",
+      "biddingPriceBPL": "$70000"
+    },
+    {
+      "playerId": 14,
+      "name": "Ariful Haque",
+      "country": "Bangladesh",
+      "image": "https://cricclubs.com/documentsRep/profilePics/ed2800de-8da4-425e-ad73-f858ff42212e.png",
+      "role": "All-rounder",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm medium",
+      "biddingPriceBPL": "$85000"
+    },
+    {
+      "playerId": 15,
+      "name": "Dilshan Munaweera",
+      "country": "Sri Lanka",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs3AtC7VdoOY8s7lU2nf089049ClQyybQJ7g&s",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm off break",
+      "biddingPriceBPL": "$75000"
+    },
+    {
+      "playerId": 16,
+      "name": "Mizanur Rahman",
+      "country": "Bangladesh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5Avx-rBSngf29EBgN1XFLRHPvNapdkoY3Q&s",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm medium",
+      "biddingPriceBPL": "$65000"
+    }
+]
