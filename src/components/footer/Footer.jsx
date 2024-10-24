@@ -4,22 +4,24 @@ const Footer = () => {
   return (
     <>
     <NewsLetter></NewsLetter>
-      <div className="bg-black">
+      <div className="bg-black pt-48">
         <div className="flex items-center justify-center py-10">
             <img className="" src={footerbg} alt="" />
         </div>
-        <footer className="footer flex justify-between max-w-screen-2xl mx-auto text-base-content p-10">
-          <nav>
+        <footer className="footer flex flex-col md:flex-row justify-between max-w-screen-2xl mx-auto text-base-content p-10">
+          <div className="text-gray-400 flex flex-col md:flex-row md:gap-24">
+          <div className="w-2/4">
             <h6 className="text-white uppercase font-bold text-xl">About Us</h6>
-            <p className="text-gray-400 w-2/4">We are a passionate team dedicated to providing the best services to our customers.</p>
-          </nav>
-          <nav className="text-gray-400">
-            <h6 className="text-white uppercase font-bold text-xl">Quick Links</h6>
+            <p className="text-gray-400">We are a passionate team dedicated to providing the best services to our customers.</p>
+          </div>
+          <div>
+          <h6 className="text-white uppercase font-bold text-xl">Quick Links</h6>
             <li className="link link-hover">Home</li>
             <li className="link link-hover">Service</li>
             <li className="link link-hover">About</li>
             <li className="link link-hover">Contact</li>
-          </nav>
+          </div>
+          </div>
           <div>
             <form className="text-xl">
               <h6 className="text-white uppercase font-bold text-xl">Subscribe</h6>
@@ -27,15 +29,9 @@ const Footer = () => {
                 <label className="label">
                   <span className="label-text text-gray-400 font-bold">Subscribe to our newsletter for the latest updates.</span>
                 </label>
-                <div className="join">
-                  <input
-                    type="text"
-                    placeholder="Enter your email"
-                    className="input input-bordered join-item"
-                  />
-                  <button className="btn linear-btn join-item border-none">
-                    Subscribe
-                  </button>
+                <div className="flex join">
+                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs join-item" />
+                <button className="btn linear-btn join-item border-none">subscribe</button>
                 </div>
               </fieldset>
             </form>

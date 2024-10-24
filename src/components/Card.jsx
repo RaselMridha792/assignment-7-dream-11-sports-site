@@ -40,7 +40,7 @@ const Card = ({ player }) => {
               <p>Price: {biddingPriceBPL}</p>
             </div>
             <div className="text-end">
-              <p className="text-gray-500 py-3">{battingType}</p>
+              <p className="text-gray-500 py-3">{bowlingType}</p>
               <button className="btn btn-outline hover:bg-[#E7FE29] hover:text-black">Choose Player</button>
             </div>
           </div>
