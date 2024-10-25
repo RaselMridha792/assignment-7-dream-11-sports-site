@@ -16,14 +16,26 @@ function App() {
   }
 
   const handleSelectPlayer = (player) =>{
-    const newPlayer = [...getPlayer, player]
-    setGetPlayer(newPlayer)
+    if(getPlayer.length < 6){
+      console.log(getPlayer.length)
+      const playerIds = player.playerId
+      const isExist = getPlayer.find(existingPlayer => existingPlayer.playerId === playerIds);
+      if(isExist){
+        alert('already exist')
+      }
+      else{
+        const newPlayer = [...getPlayer, player]
+        setGetPlayer(newPlayer)
+      }
+    }
+    else{
+      alert('max player existing queue')
+    }
   }
 
 
   // for remove item by clicking btn  
   const removePlayer = (id) =>{
-    console.log('im from remove player'+ id)
     const removalId = getPlayer.filter(removePlayer => removePlayer.playerId !== id)
     setGetPlayer(removalId);
   }
