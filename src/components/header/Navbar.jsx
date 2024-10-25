@@ -1,5 +1,6 @@
 import logo from "../../assets/logo.png";
-const Navbar = () => {
+import PropTypes from "prop-types";
+const Navbar = ({credits}) => {
   return (
     <>
       <div className="navbar py-5 px-0">
@@ -57,7 +58,7 @@ const Navbar = () => {
             </a>
           </ul>
           <button className="py-3 px-8 border rounded-lg">
-            <p>0 coin</p>
+            <p className="font-bold">${credits} coin</p>
             <img
               className="w-8"
               src="https://img.icons8.com/?size=100&id=sPBQkuep9vDA&format=png&color=000000"
@@ -69,5 +70,9 @@ const Navbar = () => {
     </>
   );
 };
+
+Navbar.propTypes = {
+  credits: PropTypes.number
+}
 
 export default Navbar;

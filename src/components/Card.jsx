@@ -3,7 +3,6 @@ import { FaUserTie } from "react-icons/fa6";
 import { IoFlagSharp } from "react-icons/io5";
 const Card = ({ player, handleSelectPlayer }) => {
   const {
-    playerId,
     name,
     country,
     image,

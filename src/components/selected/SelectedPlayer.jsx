@@ -26,6 +26,7 @@ const SelectedPlayer = ({ getPlayer, removePlayer }) => {
 
 SelectedPlayer.propTypes = {
   getPlayer: PropTypes.array,
+  removePlayer: PropTypes.func
 };
 export default SelectedPlayer;
 

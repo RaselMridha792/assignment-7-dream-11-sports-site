@@ -1,6 +1,7 @@
 import bannerBg from "../../assets/banner.png";
 import bannerMain from "../../assets/banner-main.png";
-const Banner = () => {
+import PropTypes from "prop-types";
+const Banner = ({handleAddCredit}) => {
   return (
     <>
       <div
@@ -18,8 +19,8 @@ const Banner = () => {
             <p className="mb-5 text-gray-500 font-bold">
               Beyond Boundaries Beyond Limits
             </p>
-            <div className="border border-2 rounded-lg border-[#E7FE29] hover:btn-outline">
-              <button className="btn btn-main border border-black border-4 hover:btn-outline text-lg">
+            <div className="border-2 rounded-lg border-[#E7FE29] hover:btn-outline">
+              <button onClick={handleAddCredit} className="btn btn-main border border-black border-4 hover:btn-outline text-lg">
                 claim free credit
               </button>
             </div>
@@ -29,5 +30,9 @@ const Banner = () => {
     </>
   );
 };
+
+Banner.propTypes = {
+  handleAddCredit: PropTypes.func.isRequired
+}
 
 export default Banner;
