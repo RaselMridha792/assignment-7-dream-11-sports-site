@@ -18,8 +18,5 @@ body{
 }
 
 .big-border{
-  /* border: 16px solid rgb(65, 64, 68); */
-  border: 16px solid; /* Set the border width */
-  /* border-image: linear-gradient(to bottom, white 50%, rgb(76, 76, 76) 50%) 1; */
-  background-clip: padding-box;
+  border: 16px solid rgba(255, 255, 255, 0.15);
 }

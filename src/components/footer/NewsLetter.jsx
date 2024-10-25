@@ -2,10 +2,10 @@ import bannerBg from "../../assets/banner.png";
 const NewsLetter = () => {
   return (
     <>
-    <section className="rounded-3xl mb-[-176px] sticky">
-    <div className="max-w-screen-2xl mx-auto rounded-3xl shadow-xl border-white border-2">
+    <section className="rounded-3xl mb-[-176px] sticky border max-w-screen-2xl mx-auto">
+    <div className="rounded-3xl shadow-xl border-white border-2 big-border">
         <div
-          className="hero rounded-3xl border big-border"
+          className="hero rounded-3xl border"
           style={{
             backgroundImage:
                `url(${bannerBg})`,
