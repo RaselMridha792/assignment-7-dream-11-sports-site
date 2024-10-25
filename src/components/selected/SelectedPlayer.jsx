@@ -20,7 +20,7 @@ const SelectedPlayer = ({ getPlayer, removePlayer, handleAddMorePlayer }) => {
                 <h1 className="md:text-2xl font-bold">
                   hello{playerData.name}
                 </h1>
-                <p>{playerData.bowlingType}</p>
+                <p>{playerData.battingType} {playerData.role}</p>
               </div>
             </div>
             <button onClick={() => removePlayer(playerData.playerId)}>

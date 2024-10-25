@@ -45,7 +45,7 @@ function App() {
       } else {
         const newPlayer = [...getPlayer, player];
         setGetPlayer(newPlayer);
-        toast.success( 'congratulation' +player.name + 'is now your squad')
+        toast.success( 'congratulation ' +player.name + 'is now your squad')
         setCredits(credits - playerPrice);
       }
     } else {

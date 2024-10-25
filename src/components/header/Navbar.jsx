@@ -57,7 +57,7 @@ const Navbar = ({credits}) => {
               <li>Schedules</li>
             </a>
           </ul>
-          <button className="py-3 px-8 border rounded-lg">
+          <button className="py-3 md:px-4 border rounded-lg">
             <p className="font-bold">${credits} coin</p>
             <img
               className="w-8"

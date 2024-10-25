@@ -38,7 +38,7 @@ const Card = ({ player, handleSelectPlayer }) => {
               <p>Price: {biddingPriceBPL}</p>
             </div>
             <div className="text-end">
-              <p className="text-gray-500 py-3">{bowlingType}</p>
+              <p className="text-gray-500 py-3">{role}</p>
               <button onClick={()=>handleSelectPlayer(player)} className="btn btn-outline hover:bg-[#E7FE29] hover:text-black">Choose Player</button>
             </div>
           </div>
