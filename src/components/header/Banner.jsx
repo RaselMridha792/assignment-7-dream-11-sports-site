@@ -5,7 +5,7 @@ const Banner = ({handleAddCredit}) => {
   return (
     <>
       <div
-        className="hero rounded-2xl bg-black py-20 bg-opacity-90 mb-20"
+        className="hero rounded-2xl bg-black py-20 bg-opacity-90 mb-20 mt-40"
         style={{
           backgroundImage: `url(${bannerBg})`,
         }}

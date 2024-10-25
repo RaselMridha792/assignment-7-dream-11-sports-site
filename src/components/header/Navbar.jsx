@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Navbar = ({credits}) => {
   return (
     <>
-      <div className="navbar py-5 px-0">
+      <div id="navbar" className="navbar py-5 px-0 fixed top-0 left-0 right-0 bg-white bg-opacity-80 backdrop-blur p-4 z-50 max-w-screen-2xl mx-auto">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
             <svg
@@ -25,7 +25,7 @@ const Navbar = ({credits}) => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 gap-3 p-2 shadow"
           >
-            <a className="hover:text-black">
+            <a href="/" className="hover:text-black">
               <li>Home</li>
             </a>
             <a className="hover:text-black">

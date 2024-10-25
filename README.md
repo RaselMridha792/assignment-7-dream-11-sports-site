@@ -1,4 +1,4 @@
-## Project name: BPL Dream 11:
+## Project name: BPL Dream 11 A7:
 
 ## live link surge: [https://bpl-dream-11-a7.surge.sh/]
 
