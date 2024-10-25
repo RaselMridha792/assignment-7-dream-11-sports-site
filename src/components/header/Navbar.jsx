@@ -5,7 +5,7 @@ const Navbar = ({credits}) => {
     <>
       <div className="navbar py-5 px-0">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"

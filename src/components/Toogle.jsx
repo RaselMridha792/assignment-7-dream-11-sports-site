@@ -1,13 +1,12 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
-const Toogle = ({handleToggle, getPlayer}) => {
+import { useEffect, useState } from "react";
+const Toogle = ({handleToggle, getPlayer, resetColor}) => {
   const [activeState, setActiveState] = useState(1);
-  const [secondActive, setSecondActive] = useState(1)
+  const [secondActive, setSecondActive] = useState(1);
 
   const handleisActiveCondition = (ids) =>{
     setActiveState(ids)
     handleToggle('Available')
-    console.log(ids)
     setSecondActive(1)
   }
 
@@ -17,6 +16,14 @@ const Toogle = ({handleToggle, getPlayer}) => {
     setActiveState(2)
 
   }
+  useEffect(()=>{
+    console.log(resetColor)
+    if(resetColor){
+      setSecondActive(1)
+      setActiveState(1)
+    }
+  }, [resetColor])
+
   return (
     <>
       <div className="flex flex-col md:flex-row justify-between">
@@ -36,7 +43,8 @@ const Toogle = ({handleToggle, getPlayer}) => {
 
 Toogle.propTypes = {
     handleToggle: PropTypes.func,
-    getPlayer: PropTypes.array
+    getPlayer: PropTypes.array,
+    resetColor: PropTypes.bool
 }
 
 export default Toogle;

@@ -12,10 +12,11 @@ function App() {
   const [tooglebtn, setTooglebtn] = useState("Available");
   const [getPlayer, setGetPlayer] = useState([]);
   const [credits, setCredits] = useState(0);
+  const [resetColor, setResetColor] = useState(false);
 
   // handle add free credit
   const handleAddCredit = () => {
-    setCredits(800000 + credits);
+    setCredits(1000000 + credits);
     toast.success("Credit added to your account");
   };
 
@@ -25,6 +26,7 @@ function App() {
 
   const handleAddMorePlayer= (addMore) =>{
     setTooglebtn(addMore)
+    setResetColor(!resetColor)
   }
 
   const handleSelectPlayer = (player) => {
@@ -60,6 +62,8 @@ function App() {
     toast.warn('player removed')
   };
 
+
+  // add new player button reset toogle color 
   return (
     <>
       <main className="max-w-screen-2xl mx-auto px-5">
@@ -68,7 +72,7 @@ function App() {
           <Banner handleAddCredit={handleAddCredit}></Banner>
           <ToastContainer position="top-center"></ToastContainer>
         </header>
-        <Toogle handleToggle={handleToggle} getPlayer={getPlayer}></Toogle>
+        <Toogle handleToggle={handleToggle} resetColor={resetColor} getPlayer={getPlayer}></Toogle>
         {tooglebtn === "Available" && (
           <Player handleSelectPlayer={handleSelectPlayer}></Player>
         )}
