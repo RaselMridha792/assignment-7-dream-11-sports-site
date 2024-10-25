@@ -1,8 +1,8 @@
 ## Project name: BPL Dream 11:
 
-- live link surge: bpl-dream-11-A7.surge.sh
+- live link surge: #[bpl-dream-11-A7.surge.sh]
 
-## Name of your project:
+## A brief description:
 
 - This project is a player selection app featuring a responsive Navbar displaying the user’s coin balance, a Banner for adding coins, and a Main Section to toggle between available and selected players. Player details load from JSON and are shown in a card layout with a "Choose Player" button, allowing users to select players based on coin availability.
 
