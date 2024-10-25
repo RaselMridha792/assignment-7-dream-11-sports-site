@@ -1,7 +1,6 @@
 ## Project name: BPL Dream 11:
 
-- live link surge: 
-# [https://bpl-dream-11-a7.surge.sh/]
+## live link surge: [https://bpl-dream-11-a7.surge.sh/]
 
 ## A brief description:
 
